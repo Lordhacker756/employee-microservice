@@ -1,0 +1,11 @@
+spring: {
+  application:
+    {
+      name: Config-Server
+    },
+  profiles: {
+    active: native
+  }
+}
+server:
+  port: 8088
